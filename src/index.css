@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+  --color-blue: #00367A;
+  --color-green: #3dc578;
+}
+
 
 
 body {
