@@ -5,7 +5,8 @@ module.exports = {
 		extend: {
 			colors: {
 				blue: 'var(--color-blue)',
-				green: 'var(--color-green)',
+				green: '#3dc578',
+				stone: '#102A43',
 			},
 		},
 	},

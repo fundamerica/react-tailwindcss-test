@@ -1,5 +1,5 @@
 import './App.css';
-import { Login, Submit } from './utilities/buttons/styles/Buttons';
+import { Login, Submit, Reset } from './utilities/buttons/styles/Buttons';
 
 function App() {
 	return (
@@ -12,6 +12,10 @@ function App() {
 				<div className='border-div'>
 					<h3>Login Button from buttons folder</h3>
 					<Login type='button'>Login Here</Login>
+				</div>
+				<div className='border-div'>
+					<h3>Reset Button</h3>
+					<Reset>Reset Button</Reset>
 				</div>
 			</div>
 		</div>
