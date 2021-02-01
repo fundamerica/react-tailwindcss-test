@@ -4,10 +4,15 @@ import { Theme } from './utilities/themes/PrimeTheme';
 import styled from 'styled-components';
 import Tables from './components/tables/Tables';
 import MultiLayout from './components/layouts/MultiLayout';
+import BlockGallery from './components/layouts/BlockGallery';
 
 function App() {
 	return (
 		<>
+			<h1 style={{ textAlign: 'center', fontSize: '42pt' }}>
+				TailwindCSS With Twin Macro Example
+			</h1>
+			<BlockGallery />
 			<Theme>
 				<Container>
 					<Heading isHeading={true}>Hello World</Heading>
